@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrincipiosSOLID.ISP
 {
-    internal class DocumentoWordISP: IAbrible, IGuardable, ICerrable
+    internal class DocumentoWordISP: IAbribleISP, IGuardableISP, ICerrableISP
     {
         public void Abrir()
         {
